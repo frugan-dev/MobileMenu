@@ -1,0 +1,19 @@
+{
+  "name": "mobilemenu",
+  "version": "1.0.0",
+  "description": "MobileMenu is a tiny very customizable jquery plugin for turn any block or menu to look-alike on-canvas menus with submenus",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sargismarkosyan/MobileMenu.git"
+  },
+  "author": "sargismarkosyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sargismarkosyan/MobileMenu/issues"
+  },
+  "homepage": "https://github.com/sargismarkosyan/MobileMenu#readme"
+}
