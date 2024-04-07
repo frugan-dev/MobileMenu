@@ -36,7 +36,7 @@
 .mobilemenu.mobilemenu-theme ul ul {
   overflow: hidden;
   height: 0;
-  padding: 0 0 0 10%;
+  padding: 0 0 0 5%;
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-out;
   -moz-transition: opacity 0.3s ease-out;
