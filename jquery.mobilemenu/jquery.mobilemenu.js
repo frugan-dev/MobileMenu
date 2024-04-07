@@ -133,8 +133,8 @@
         li.addClass('js-mobilemenu--li-with-child');
         
         var lastClick = 0;
-        
-        let toggler = li.children('a').insertAfter('<span class="js-mobilemenu--child-toggler"></span>');
+
+        let toggler = li.children('a').after('<span class="js-mobilemenu--child-toggler"></span>');
         toggler.click(function(e){
           if(li.hasClass('js-mobilemenu--li-active')){
             li.removeClass('js-mobilemenu--li-active');
