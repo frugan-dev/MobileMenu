@@ -66,8 +66,8 @@
     var openMenu = function(){
       menu.addClass('js-mobilemenu--opened');
       
-      $(document.documentElement).css({'overflow-y': 'hidden', 'height': '100%'});
-      $(document.body).css({'overflow-y': 'hidden', 'height': '100%'});
+      //$(document.documentElement).css({'overflow-y': 'hidden', 'height': '100%'});
+      $(document.body).css({'overflow-y': 'hidden'/*, 'height': '100%'*/});
       
       updateHeight();
     
@@ -79,8 +79,8 @@
     var closeMenu = function(){
       menu.removeClass('js-mobilemenu--opened');
       
-      $(document.documentElement).css({'overflow-y': '', 'height': ''});
-      $(document.body).css({'overflow-y': '', 'height': ''});
+      //$(document.documentElement).css({'overflow-y': '', 'height': ''});
+      $(document.body).css({'overflow-y': ''/*, 'height': ''*/});
     
       if(options.onClose)
         options.onClose(menu, options);
