@@ -2,7 +2,7 @@
   "name": "mobilemenu",
   "version": "1.0.0",
   "description": "MobileMenu is a tiny very customizable jquery plugin for turn any block or menu to look-alike on-canvas menus with submenus",
-  "main": "main.js",
+  "main": "jquery.mobilemenu/jquery.mobilemenu.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
