@@ -46,8 +46,10 @@
 .mobilemenu.mobilemenu-theme ul li {
   list-style: none;
 }
-.mobilemenu.mobilemenu-theme ul li.js-mobilemenu--li-with-child > a {
+.mobilemenu.mobilemenu-theme ul li.js-mobilemenu--li-with-child {
   position: relative;
+}
+.mobilemenu.mobilemenu-theme ul li.js-mobilemenu--li-with-child > a {
   padding-right: 40px;
 }
 .mobilemenu.mobilemenu-theme ul li.js-mobilemenu--li-with-child > span.js-mobilemenu--child-toggler {
