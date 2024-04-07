@@ -55,7 +55,7 @@
 .mobilemenu.mobilemenu-theme ul li.js-mobilemenu--li-with-child > span.js-mobilemenu--child-toggler {
   display: block;
   position: absolute;
-  top: 50%;
+  top: 25px;
   right: 15px;
   width: 10px;
   height: 10px;
