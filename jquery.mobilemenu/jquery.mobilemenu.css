@@ -55,8 +55,13 @@
 .mobilemenu.mobilemenu-theme ul li.js-mobilemenu--li-with-child > span.js-mobilemenu--child-toggler {
   display: block;
   position: absolute;
-  top: 25px;
-  right: 15px;
+  width: 45px;
+  height: 45px;
+  padding: 25px;
+  cursor: pointer;
+}
+.mobilemenu.mobilemenu-theme ul li.js-mobilemenu--li-with-child > span.js-mobilemenu--child-toggler span {
+  display: block;
   width: 10px;
   height: 10px;
   margin-top: -6px;
@@ -71,9 +76,8 @@
   -moz-transition: transform 0.3s ease-out, margin-top 0.3s ease-out;
   -o-transition: transform 0.3s ease-out, margin-top 0.3s ease-out;
   transition: transform 0.3s ease-out, margin-top 0.3s ease-out;
-  cursor: pointer;
 }
-.mobilemenu.mobilemenu-theme ul li.js-mobilemenu--li-with-child.js-mobilemenu--li-active > span.js-mobilemenu--child-toggler {
+.mobilemenu.mobilemenu-theme ul li.js-mobilemenu--li-with-child.js-mobilemenu--li-active > span.js-mobilemenu--child-toggler span {
   margin-top: -9px;
   -webkit-transform: rotateZ(135deg);
   -moz-transform: rotateZ(135deg);
